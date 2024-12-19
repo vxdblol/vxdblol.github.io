@@ -1,0 +1,204 @@
+/* idk some colors ig
+    #000308 #03030a
+*/
+
+@font-face {
+    font-family: Terminus;
+    src: url(Terminus.ttf);
+}
+
+body {
+    background-color: rgb(2, 0, 2);
+    font-family: Terminus;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* short for stupid margin fix thing */
+
+.smft {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+#container {
+    text-align: center;
+    color: #dddddd;
+    margin: auto;
+    width: 80%;
+}
+
+.logo-header {
+    color: #dddddd;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 0.028em;
+}
+
+h1{
+    color: azure;
+    margin: 2.5rem;
+}
+
+.page-navigation {
+    border: solid 1px #4b5a9b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    padding: 3px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right-text {
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+li {
+    display: inline;
+}
+
+.page-navigation a {
+    padding: 7px;
+    padding-bottom: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: solid 1px #4b5a9b;
+    border-bottom: none;
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.page-navigation a.selected {
+    border-bottom: solid 3px rgb(2, 0, 2);
+    padding-bottom: 3px;
+}
+
+.page-navigation a.donate {
+    color: #ca6060;
+}
+
+.page-navigation a.donate:hover {
+    color: #4960c9;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1a1d30;
+    padding: 14px;
+    width: 100%;
+}
+
+table a {
+    padding: 0px 10px 0px 10px
+}
+
+th,
+td {
+    font-size: 16px;
+    padding: 00px 0px 0px 50px;
+    color: white;
+}
+
+#article-container {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1a1d30;
+    padding: 20px;
+}
+
+.parent {
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 4 / 1 / 2 / 4;
+}
+
+.div2 {
+    grid-area: 3 / 3 / 3 / 7;
+}
+
+
+
+
+.article-content {
+    padding: 20px;            /* Adds spacing between text and the border */
+    line-height: 1.6;         /* Improves readability by adjusting line height */
+    font-size: 16px;          /* Sets a comfortable font size */
+    color: #dddddd;           /* Matches your design */
+    text-align: justify;      /* Aligns text for a clean block layout */
+}
+
+.article-content p {
+    margin-bottom: 16px;      /* Adds spacing between paragraphs */
+}
+
+.article-border {
+    border: 1px solid #1a1d30; /* Defines the border around the content */
+    padding: 20px;            /* Ensures consistent padding inside the border */
+    margin-top: 20px;         /* Adds space between the border and elements above */
+}
+
+h3 {
+    margin-top: 20px;         /* Adds spacing before headings */
+    color: #ffffff;           /* Heading color to make it stand out */
+}
+
+
+.article-hr{
+    width: 40%;
+}
+
+.row-separator {
+    border: 0;
+    border-top: 1px solid #1a1d30;
+    margin: 0;
+    width: 100%;
+}
+
+/* Add full-width separator to table rows */
+table tbody tr {
+    border-bottom: 1px solid #1a1d30; /* Adjust color to match theme */
+    margin: 0;
+    padding: 0; /* Reset padding to ensure full-width lines */
+}
+
+table tbody tr:last-child {
+    border-bottom: none; /* Remove the border from the last row */
+}
+
+/* Optional: Ensure table cells also span the full width */
+table th, table td {
+    padding: 8px 0; /* Adjust padding as needed */
+    text-align: left;
+}
+
+.back-link {
+    display: block;          /* Ensures the link spans the full width */
+    text-align: left;        /* Aligns the text to the left */
+    margin: 10px 0;          /* Adds some space around the link */
+    color: #dddddd;          /* Matches your theme */
+    text-decoration: none;   /* Removes underline */
+    padding: 5px;            /* Optional: Adds spacing for better touch targets */
+}
+
+.article-images{
+    display: flexbox;
+}
