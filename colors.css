@@ -1,0 +1,115 @@
+.small {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.medium {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.big {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.white {
+    color: #dddddd
+}
+
+.black {
+    color: rgb(7, 7, 7)
+}
+
+.grey {
+    color: rgb(179, 179, 179)
+}
+
+.red {
+    color: #ca6060
+}
+
+.green {
+    color: #85eaa2
+}
+
+.blue {
+    color: #4960c9
+}
+
+.orange {
+    color: #e4aa7a
+}
+
+.purple {
+    color: #a486d1
+}
+
+.alt-purple {
+    color: #643f7c
+}
+
+.bg-black {
+    background-color: #080707
+}
+
+.bg-white {
+    background-color: #ccc6c6
+}
+
+.bg-red {
+    background-color: #7e3434
+}
+
+.bg-green {
+    background-color: #3a7e34
+}
+
+.bg-purple {
+    background-color: #4b5a9b
+}
+
+.bg-blue {
+    background-color: #3a5079
+}
+
+.bg-light-blue {
+    background-color: #3a6d79
+}
+/*
+     FILE ARCHIVED ON 19:05:58 Apr 02, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:34:16 Dec 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.474
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 9.295
+  LoadShardBlock: 91.612 (3)
+  PetaboxLoader3.datanode: 275.176 (6)
+  load_resource: 1108.248 (2)
+  PetaboxLoader3.resolve: 195.223 (2)
+  loaddict: 75.227
+*/
